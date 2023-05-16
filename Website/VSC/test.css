@@ -1,0 +1,212 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+
+
+
+html {
+    font-size: 65%;
+    background-color: rgba(244, 243, 238, 1);
+}
+
+body {
+    margin: 0;
+    font-family: 'Philosopher'
+}
+
+.wrapper {
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgba(69, 63, 59, 1);
+    justify-content: center;
+    display: grid;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+
+header.top-line {
+    border-bottom: solid;
+    border-bottom-color: rgba(69, 63, 59, 1);
+    border-bottom-width: 1px;
+    display: flex;
+}
+
+svg.banner {
+    width: 100%;
+}
+
+nav {
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+}
+
+div ul {
+    padding: 0;
+}
+
+div ul li {
+    list-style-type: none;
+    font-size: 2rem;
+    font-family: 'Actor';
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 4vw;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: rgba(69, 63, 59, 1);
+}
+
+nav ul li a.active {
+    color: rgba(144, 169, 225, 1);
+}
+
+li.space-between {
+    margin-left: 20vw;
+}
+
+main.gallery {
+    width: 70vw;
+    margin: auto;
+}
+
+.player {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    width: 40rem;
+    background-color: rgba(244, 243, 238, 1);
+    overflow: hidden;
+}
+
+
+.info {
+    padding: 1rem;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: 1fr 4rem;
+    margin-bottom: 1rem;
+}
+
+.title-2 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.title .time {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 0.25rem;
+}
+
+.control i {
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: rgba(144, 169, 225, 1);
+    color: rgba(244, 243, 238, 1);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+ .control i:hover {
+    font-size: 1.5rem;
+}
+
+.info {
+    display: flex;
+    gap: 3em;
+    margin-top: 3em;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 2vw;
+    transition: 0.4s;
+    border-top: solid;
+    border-top-width: 1px;
+    color: rgba(69, 63, 59, 1);
+    background-color: rgba(244, 243, 238, 1);
+    font-family: 'Actor';
+  }
+  
+.active, .accordion:hover {
+    color: rgba(193, 75, 128, 1);
+  }
+  
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.accordion:after {
+    content: '\002B';
+    color: rgba(69, 63, 59, 1);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+.minus:after {
+    content: "\2212";
+  }
+
+  
+
+.title {
+    font-family: 'Actor';
+    font-size: 1.5vw;
+}
+
+#wave {
+    margin-bottom: 3em;
+}
+
+#wave-1 {
+    margin-bottom: 5em;
+}
+
+h2.name {
+    font-size: 9vw;
+    margin-bottom: 2vw;
+}
+
+footer {
+    max-width: 1200px;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+footer.bottom-line {
+    border-top: solid;
+    padding: 2em;
+    border-top-width: 1px;
+    justify-content: center;
+    margin-top: 3vw;
+}
